@@ -10,3 +10,9 @@ for i in range(2):
     c+=a
 
 print("Total value: "+str(c))
+
+if c>=7:
+    print("You won!")
+
+else :
+    print("You lose...")

@@ -1,5 +1,11 @@
 import random
 
+print("What is your name?")
+
+name = raw_input()
+
+print("Hello, "+name+"!")
+
 print("Rolling the dice...")
 
 c=0
@@ -12,7 +18,7 @@ for i in range(2):
 print("Total value: "+str(c))
 
 if c>=7:
-    print("You won!")
+    print(name+" Won!")
 
 else :
-    print("You lose...")
+    print(name+" Lose...")
